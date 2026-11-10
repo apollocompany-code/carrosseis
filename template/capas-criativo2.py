@@ -38,7 +38,7 @@ E=f"""
 {dd('bulb',40,110,-12)}{dd('fire',955,110,10)}{dd('sparkle',470,900,0,60)}{dd('arrowcurl',360,860,20,70)}
 """
 # F: ficha
-grid=''.join(f"<div class='box' style='padding:8px 12px;display:flex;gap:10px;align-items:center;box-shadow:3px 3px 0 #1b1a17'><div style='width:44px;height:44px;flex:none'>{I[ic]}</div><div><div class='mono' style='font-size:13px;color:#2f6fed'>0{k+1}</div><div style='font-family:TS;font-weight:800;font-size:24px;line-height:1'>{t}</div></div></div>" for k,(ic,t) in enumerate([('target','Dor'),('hook','Gancho'),('box','Kit'),('pin','Cenário'),('people','Quem fala'),('play','Formato')]))
+grid=''.join(f"<div class='box' style='padding:8px 12px;display:flex;gap:10px;align-items:center;box-shadow:3px 3px 0 #1b1a17'><div style='width:44px;height:44px;flex:none'>{I[ic]}</div><div><div class='mono' style='font-size:13px;color:#2f6fed'>0{k+1}</div><div style='font-family:TS;font-weight:800;font-size:24px;line-height:1'>{t}</div></div></div>" for k,(ic,t) in enumerate([('hook','Hook'),('headline','Body'),('megaphone','CTA'),('target','Dor'),('pin','Cenário'),('people','Quem fala')]))
 F=f"""
 <div style='position:absolute;top:44px;left:60px;right:60px;display:flex;align-items:center;justify-content:space-between'><div class='mono' style='font-size:22px'><span style='display:inline-block;width:16px;height:16px;background:#2f6fed;margin-right:10px'></span>Nº 01 — Criativo</div><div style='display:flex;gap:6px'>{sq}</div></div>
 <div style='position:absolute;top:100px;right:60px;transform:rotate(-6deg);background:#ffd43b;border:3px solid #1b1a17;border-radius:30px;padding:5px 16px' class='mono'>Laboratório</div>
@@ -47,7 +47,7 @@ F=f"""
 <div style='position:absolute;top:385px;left:60px;right:60px'>
 <div style='font-family:TS;font-weight:800;font-size:44px;line-height:1.05'>Você mexeu na parte errada dele</div>
 <div class='ser' style='font-size:38px'>(e jogou fora um vencedor.)</div>
-<div class='box' style='margin-top:18px;padding:12px 18px;display:flex;align-items:center;gap:16px'><div style='flex:1'><div class='mono' style='font-size:14px;color:#8b8577'>Você → criativo cansou</div><div style='font-family:TS;font-weight:800;font-size:28px'>Troco a dor, a oferta e o gancho de uma vez?</div></div><div style='width:54px;height:54px;border-radius:50%;background:#2f6fed;border:3px solid #1b1a17;color:#fff;display:flex;align-items:center;justify-content:center;font-size:30px'>↑</div></div>
+<div class='box' style='margin-top:18px;padding:12px 18px;display:flex;align-items:center;gap:16px'><div style='flex:1'><div class='mono' style='font-size:14px;color:#8b8577'>Você → criativo cansou</div><div style='font-family:TS;font-weight:800;font-size:28px'>Troco a dor, o hook e o CTA de uma vez?</div></div><div style='width:54px;height:54px;border-radius:50%;background:#2f6fed;border:3px solid #1b1a17;color:#fff;display:flex;align-items:center;justify-content:center;font-size:30px'>↑</div></div>
 <div style='display:flex;gap:20px;margin-top:18px'>
 <div style='flex:1.15'><div class='mono' style='font-size:15px;margin-bottom:8px'>O que tem num criativo ↓</div><div style='display:grid;grid-template-columns:1fr 1fr;gap:9px'>{grid}</div></div>
 <div class='box' style='flex:1;padding:14px 16px;position:relative'><div class='mono' style='font-size:13px;color:#8b8577'>Relatório do teste</div><div style='font-family:TP;font-weight:900;font-size:38px'>Veredito</div>

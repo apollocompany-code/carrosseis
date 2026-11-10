@@ -41,3 +41,17 @@ Humor/meme (paidotrafego) e notícia polêmica (matheusmota) dão alcance, mas p
 3. **Revelação:** "Ninguém te conta: no pagamento na entrega, a venda só existe quando é paga."
 
 CTA sugerido: "Comenta ESCALA que eu te mando o checklist no direct" (só usar quando o checklist existir).
+
+## Rodada 2 (10/nov) · 6 perfis, ~70 Reels · melhor de cada
+
+| perfil | x | gancho / formato |
+|---|---|---|
+| @victorrocha.br | 8,8x | Motivacional de identidade ("Quem nasceu pro oceano não aceita o copo") |
+| @gut1n | 7,8x | Pergunta sobre novidade ("Já testou os novos modelos?") · 3,1x "Nunca use X sem esses 5" |
+| @paidotrafego | 7,4x | Meme da dor do nicho ("Não vou cair nessa mentira", "CPM tá 100 contos" 2,7x) · dica "jeitinho" 1,7x |
+| @melfiads | 2,9x | POV motivacional com texto na tela + som de venda aprovada (680 envios) · 2,7x skit de ligação "quebra de objeção" |
+| @hardcopy_oficial | 2,5x | Desafio/prova ("Nessa reunião eu vou te PROVAR…") |
+| @vturb.br | 2,4x | Humor de bastidor ("Mas você só fica no computador…") |
+
+Padrão: 4 dos 6 melhores são identificação (humor da dor do nicho ou identidade), não aula.
+Formatos escolhidos pro Gabriel: skit de objeção no X1, meme da dor do produtor, POV afiliado→produtor.

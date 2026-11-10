@@ -1,0 +1,6 @@
+@font-face{font-family:TS;font-weight:700;src:url(file://DIR/sora-latin-700-normal.woff2)}@font-face{font-family:TS;font-weight:800;src:url(file://DIR/sora-latin-800-normal.woff2)}
+.t1,.tbox span,.tpost span,.huge,.Ldiagram .tbox span{font-family:TS!important;font-weight:800!important}
+.tbox span{letter-spacing:-1.5px!important}.t1{letter-spacing:-1px}
+.cray{font-family:TS!important;font-weight:800;text-transform:none!important;filter:none!important;letter-spacing:-1.5px!important;line-height:1.02}
+.node b,.steps b,.col h3,.row b,.card small,.tipbox small,.num,.head span{font-family:TS!important;font-weight:700!important}
+.huge{letter-spacing:-1.5px!important}

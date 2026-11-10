@@ -1,0 +1,6 @@
+@font-face{font-family:TP;font-weight:800;src:url(file://DIR/poppins-latin-800-normal.woff2)}@font-face{font-family:TP;font-weight:900;src:url(file://DIR/poppins-latin-900-normal.woff2)}
+.t1,.tbox span,.tpost span,.huge,.Ldiagram .tbox span{font-family:TP!important;font-weight:900!important}
+.tbox span{letter-spacing:-1px!important}.t1{letter-spacing:0!important}
+.cray{font-family:TP!important;font-weight:900;text-transform:none!important;filter:none!important;letter-spacing:-1px!important;line-height:1.02}
+.node b,.steps b,.col h3,.row b,.card small,.tipbox small,.num,.head span{font-family:TP!important;font-weight:800!important}
+.huge{letter-spacing:-1px!important}

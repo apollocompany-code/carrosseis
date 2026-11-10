@@ -15,13 +15,17 @@ X=f"""
 .g{{font-family:TT;text-transform:uppercase;line-height:.95;filter:url(#giz)}}
 .box{{background:#fff;border:3px solid #1b1a17;border-radius:14px;box-shadow:5px 5px 0 #1b1a17}}
 .d{{position:absolute;width:86px;height:86px}}.d svg{{width:100%;height:100%;overflow:visible}}
+/*g3d*/.g{{filter:none!important;position:relative;line-height:1.08!important}}.g .gf{{position:relative;filter:url(#giz)}}.g .gb,.g .gw{{position:absolute;left:0;top:0;right:0;filter:none}}.g .gb{{color:#1b1a17;-webkit-text-stroke:16px #1b1a17;text-shadow:1px 1px 0 #1b1a17,2px 2px 0 #1b1a17,3px 3px 0 #1b1a17,4px 4px 0 #1b1a17,5px 5px 0 #1b1a17,6px 6px 0 #1b1a17,7px 7px 0 #1b1a17,8px 8px 0 #1b1a17,9px 9px 0 #1b1a17,10px 10px 0 #1b1a17}}.g .gw{{color:#fff;-webkit-text-stroke:9px #fff}}
 .tag{{display:inline-block;font-family:JB;font-weight:700;font-size:15px;padding:2px 8px;border-radius:4px}}
 """
 FILT="""<svg width=0 height=0 style='position:absolute'><filter id='rough'><feTurbulence type='fractalNoise' baseFrequency='.04' numOctaves='2' seed='2'/><feDisplacementMap in='SourceGraphic' scale='4'/></filter>
 <filter id='giz' x='-5%' y='-5%' width='110%' height='110%'><feTurbulence type='fractalNoise' baseFrequency='1.4 .35' numOctaves='2' seed='7' result='n'/><feColorMatrix in='n' type='matrix' values='0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  0 0 0 -1.3 1.55' result='m'/><feComposite in='SourceGraphic' in2='m' operator='in' result='t'/><feTurbulence type='fractalNoise' baseFrequency='.04' numOctaves='2' seed='3' result='d'/><feDisplacementMap in='t' in2='d' scale='5'/></filter></svg>"""
 def dd(k,x,y,r=0,s=86): return f"<div class='d' style='left:{x}px;top:{y}px;width:{s}px;height:{s}px;transform:rotate({r}deg)'>{I[k]}</div>"
 bar="<div class='bar'><span class='pill'>@gabrielalmeidamx</span><span class='pill save'>Salva pra depois</span><span class='pill'>Arrasta →</span></div>"
-def page(inner): return f"<html><head><style>{CSS}{X}</style></head><body>{FILT}<div class='slide'>{inner}{bar}</div></body></html>"
+def g3(h):
+    import re as _r
+    return _r.sub(r"(<div class='g'[^>]*>)([^<]*)</div>",lambda m:m.group(1)+f"<span class='gb'>{m.group(2)}</span><span class='gw'>{m.group(2)}</span><span class='gf'>{m.group(2)}</span></div>",h)
+def page(inner): inner=g3(inner); return f"<html><head><style>{CSS}{X}</style></head><body>{FILT}<div class='slide'>{inner}{bar}</div></body></html>"
 sq=''.join(f"<span style='display:inline-flex;width:32px;height:32px;border:2.5px solid #1b1a17;border-radius:6px;align-items:center;justify-content:center;font-family:JB;font-size:16px;{'background:#2f6fed;color:#fff;' if k==1 else ''}'>{k}</span>" for k in range(1,8))
 # E: diagrama
 idx=''.join(f"<div style='display:flex;gap:10px;align-items:center;font-size:30px'><span class='mono' style='color:#2f6fed;font-size:20px'>0{k+1}</span>{t}</div>" for k,t in enumerate(['O erro mais caro','A parte fixa','A parte variável','Como testar','Faça hoje']))

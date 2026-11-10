@@ -8,8 +8,8 @@ quando tiver 3 Reels gravados, atualizar a seção "O que eu soo" com as falas r
 - **Nome:** Gabriel Almeida, fundador e CEO da Apollo Company
 - **Perfil:** @gabrielalmeidamx
 - **O que eu faço, em uma frase:** Opero nutra de verdade (produção, tráfego, atendimento, logística e cobrança no pagamento na entrega) e mostro como transformar uma operação numa empresa que escala com previsibilidade.
-- **Com quem eu falo:** Produtor de nutra que já tem operação rodando (pagamento na entrega ou antecipado) e fatura acima de R$ 1 mil por dia, e afiliado que já roda tráfego e trava em escala, criativo e decisão. Homens de 18 a 35 anos. NÃO é iniciante.
-- **O que eu vendo:** Mentoria para produtores (método Escala Previsível), produção de potes e operação pela Apollo, afiliação aos meus produtos.
+- **Com quem eu falo:** Quem vende encapsulado nutra no WhatsApp X1 com tráfego do Meta Ads, no pagamento na entrega ou antecipado. Dois momentos do mesmo caminho: (1) o afiliado que já vende e quer virar produtor, ter o próprio produto; (2) o produtor que já tem produto e travou em escala, tráfego, criativo ou operação. Homens de 18 a 35 anos. NÃO é iniciante.
+- **O que eu vendo:** O caminho inteiro: produto (produção de encapsulados pela Apollo), tráfego, criativo e operação (X1, logística, cobrança no pagamento na entrega). Mentoria (método Escala Previsível) e afiliação aos meus produtos.
 
 ## O que eu soo
 
@@ -43,9 +43,9 @@ quando tiver 3 Reels gravados, atualizar a seção "O que eu soo" com as falas r
 
 Só estas. Nunca inventar outros números.
 
-- Mais de 8 dígitos faturados no mercado digital.
+- Milhares de potes produzidos por mês. (prova principal, usar na bio e nas capas)
+- Mais de 8 dígitos faturados no mercado digital. (NÃO usar na bio nem em capa; só citar quando a história pedir)
 - Mais de 5 anos de tráfego pago (antes do nutra, tive agência de tráfego para e-commerce e vendi para focar 100% no nutra).
-- Milhares de potes vendidos por mês.
 - IA e automação aplicadas na própria operação.
 - Operação distribuída: logística em SP, time de vendas remoto e parte presencial em Governador Valadares.
 - Já perdi toda a estrutura de anúncios por contingência fraca e levei de 1 mês a 1 mês e meio para reerguer. Hoje tenho contingência em todas as linhas.
@@ -56,3 +56,9 @@ Só estas. Nunca inventar outros números.
 - **Palavra-chave do CTA:** ESCALA (comentar ou mandar no direct)
 - **O que a palavra entrega:** por enquanto, conversa no direct ou no WhatsApp. Quando existir um material (checklist, aula gratuita), atualizar aqui.
 - **Para onde vai o link:** a definir.
+
+## Perfil (bio atual, nov/2026)
+
+- **Nome:** Gabriel | Escala no Nutra
+- **Bio:** Ajudo afiliado a virar produtor e produtor a escalar no nutra / Do encapsulado ao X1 no Meta Ads / Milhares de potes produzidos por mês / Manda ESCALA no direct
+- **Tema fixo novo:** a transição de afiliado para produtor (caixa, produto, risco, operação).
